@@ -10,11 +10,12 @@ public class CalculatorTest {
     @Test
     public void testCalulationSum() {
 
-        Calculator calculator = new Calculator();
         int a = 10;
         int b = 17;
 
         int result = 27;
+
+        Calculator calculator = new Calculator();
 
         assertEquals(result, calculator.sum(a, b));
     }
@@ -22,11 +23,12 @@ public class CalculatorTest {
     @Test
     public void testCalulationDiv() {
 
-        Calculator calculator = new Calculator();
         int a = 20;
         int b = 10;
 
         int result = 2;
+
+        Calculator calculator = new Calculator();
 
         assertEquals(result,calculator.div(a, b));
     }

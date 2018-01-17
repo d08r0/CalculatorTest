@@ -12,11 +12,12 @@ public class HamcrestCalculatorTest {
     @Test
     public void testCalulationSum() {
 
-        Calculator calculator = new Calculator();
         int a = 10;
         int b = 17;
 
         int result = 27;
+
+        Calculator calculator = new Calculator();
 
         assertThat("Ожидали другой результат",calculator.sum(a, b), equalTo(result));
     }
@@ -24,11 +25,12 @@ public class HamcrestCalculatorTest {
     @Test
     public void testCalulationDiv() {
 
-        Calculator calculator = new Calculator();
         int a = 20;
         int b = 10;
 
         int result = 2;
+
+        Calculator calculator = new Calculator();
 
         assertThat("Ожидали другой результат",calculator.div(a, b), equalTo(result));
     }

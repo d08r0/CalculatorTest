@@ -30,6 +30,6 @@ public class CalculatorTest {
 
         Calculator calculator = new Calculator();
 
-        assertEquals(result,calculator.div(a, b));
+        assertEquals(result, calculator.div(a, b));
     }
 }

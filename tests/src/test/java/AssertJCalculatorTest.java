@@ -8,18 +8,18 @@ import static org.assertj.core.api.Assertions.assertThat;
  */
 public class AssertJCalculatorTest {
 
-        @Test
-        public void testCalulationSum() {
+    @Test
+    public void testCalulationSum() {
 
-            int a = 10;
-            int b = 17;
+        int a = 10;
+        int b = 17;
 
-            int result = 27;
+        int result = 27;
 
-            Calculator calculator = new Calculator();
+        Calculator calculator = new Calculator();
 
-            assertThat(calculator.sum(a, b)).isEqualTo(result);
-        }
+        assertThat(calculator.sum(a, b)).isEqualTo(result);
+    }
 
     @Test
     public void testCalulationDiv() {

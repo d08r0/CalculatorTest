@@ -19,7 +19,7 @@ public class HamcrestCalculatorTest {
 
         Calculator calculator = new Calculator();
 
-        assertThat("Ожидали другой результат",calculator.sum(a, b), equalTo(result));
+        assertThat("Ожидали другой результат", calculator.sum(a, b), equalTo(result));
     }
 
     @Test
@@ -32,6 +32,6 @@ public class HamcrestCalculatorTest {
 
         Calculator calculator = new Calculator();
 
-        assertThat("Ожидали другой результат",calculator.div(a, b), equalTo(result));
+        assertThat("Ожидали другой результат", calculator.div(a, b), equalTo(result));
     }
 }
